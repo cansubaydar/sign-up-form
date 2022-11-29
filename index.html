@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/icon.svg" type="image/svg"> <!-- Icon from https://icooon-mono.com/ -->
+    <script src="https://kit.fontawesome.com/db70e90eac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="image-sidebar">
+        <div class="logo">
+            <img src="assets/icon.svg" alt="icon">
+            <h1>ODAK</h1>
+        </div>
+        <div class="image-footer">
+            <p>Photo by <a href="https://unsplash.com/@erickwalterbutler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Erick Butler</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a></p>
+            <p class="footer">
+                <a href="https://github.com/cansubaydar" target="_blank"><i class="fab fa-github"></i>cansubaydar</a> 
+            </p>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <div class="form-description">
+            <p class="form-p">This is not a real online service! You know you need something like 
+                this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.</p>
+            <p class="form-p">You <em>know</em> you want to.</p>
+        </div>
+        <form action="#" method="get">
+            <div class="form-part">
+                <p class="form-p">Let's do this!</p>
+                <fieldset>
+                    <div class="form-group">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="number" id="phone_number" name="phone_number">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-group">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                        <p class="error">* Passwords do not match</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_password" name="password"> 
+                    </div>
+                </fieldset>
+            </div>
+            <div class="button">
+                <button type="submit">Create Account</button>
+            </div> 
+            <div class="login">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
