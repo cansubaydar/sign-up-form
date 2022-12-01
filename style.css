@@ -75,14 +75,11 @@ body {
 .form-section {
     grid-column: 1 / -1;
     max-width: 100%;
-    height: 100%;
-    display: grid; 
-    grid-auto-rows: min-content;
     background-color: #94BBE3;
 }
 
 .form-description {
-    padding: 4.5rem 3rem 1rem 3rem; 
+    padding: 4rem 3rem 1rem 3rem; 
 }
 
 .form-p {
@@ -95,7 +92,7 @@ form {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-bottom: 4.5rem;
+    padding-bottom: 4rem;
 }
 
 .form-part {
@@ -190,7 +187,7 @@ input:focus {
         height: 50vh;
     }
     fieldset {
-        grid-template-columns: repeat(2, minmax(20vw, 40vw));
+        grid-template-columns: repeat(2, minmax(15vw, 35vw));
     }
 }
 
@@ -207,10 +204,10 @@ input:focus {
     }
     .logo {
         margin-top: auto;
-        margin-bottom: 8.5rem;
+        margin-bottom: 11.5rem;
     }
     .logo img {
-        width: max(6vw, 4rem);
+        width: max(5vw, 4rem);
     }
     .logo h1 {
         font-size: clamp(4.25rem, 7vw, 5rem);
@@ -221,16 +218,20 @@ input:focus {
     }
     .image-footer p, 
     .image-footer a {
-        font-size: 0.875rem;
+        font-size: 0.9rem;
         font-weight: 700;
         color: #001B36;
         text-shadow: -1px -1px 2px #cde1f2;
     }
     .form-section {
         grid-column: 2 / -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     } 
     .form-description {
-        padding: 5.5rem 3rem 1.5rem 3rem;
+        width: 91%;
+        padding: 3rem 3rem 1.5rem 3rem;
     }
     .form-p {
         font-size: 1.375rem;
@@ -239,13 +240,13 @@ input:focus {
         padding-bottom: 0;
     }
     .form-part {
-        padding: 1.5rem 3rem;
+        padding: 3rem 3rem 1.5rem 3rem;
     }
     fieldset {
-        grid-template-columns: repeat(2, minmax(12vw, 22vw));
+        grid-template-columns: repeat(2, minmax(12vw, 20.5vw));
     }
     .form-group {
-        padding-bottom: 1.375rem;
+        padding-bottom: 1.5rem;
     }
     label {
         font-size: 0.75rem;
